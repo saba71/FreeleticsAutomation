@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="25843" started-at="2021-10-13T23:21:38Z" finished-at="2021-10-13T23:22:04Z">
+    <groups>
+    </groups>
+    <test name="D:/freeletics_test" duration-ms="25843" started-at="2021-10-13T23:21:38Z" finished-at="2021-10-13T23:22:04Z">
+      <class name="Home.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Home.HomePageTest@32e6e9c3]" name="setUp" is-config="true" duration-ms="7320" started-at="2021-10-14T04:21:38Z" finished-at="2021-10-14T04:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Home()[pri:0, instance:Home.HomePageTest@32e6e9c3]" name="Home" is-config="true" duration-ms="3512" started-at="2021-10-14T04:21:45Z" finished-at="2021-10-14T04:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method status="PASS" signature="TestUserNavigatesToApplicationFormPage()[pri:0, instance:Home.HomePageTest@32e6e9c3]" name="TestUserNavigatesToApplicationFormPage" duration-ms="13896" started-at="2021-10-14T04:21:49Z" finished-at="2021-10-14T04:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserNavigatesToApplicationFormPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Home.HomePageTest@32e6e9c3]" name="tearDown" is-config="true" duration-ms="1103" started-at="2021-10-14T04:22:03Z" finished-at="2021-10-14T04:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Home.HomePageTest -->
+    </test> <!-- D:/freeletics_test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
