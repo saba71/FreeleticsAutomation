@@ -10,7 +10,7 @@
 # Question 2
 ## 1  Which parts of the code you provided would need to be adapted to run the same tests in an Android phone, using the same browser, in the tool you chose?
 ### In order to run this on android broswer, we need to add following data:
-We need to specify the AndroidDriver: AppiumDriver driver = new AndroidDriver(new url(https://www.freeletics.com), capabilities)
+We need to specify the AndroidDriver: AppiumDriver driver = new AndroidDriver(new url(), capabilities)
 We need add the set the desired capacbilities e.g 
 
 DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -27,7 +27,7 @@ capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 
 ## 2. How could we run these tests in a physical android phone connected to your laptop? Does the laptop need any extra software/hardware to run them properly?
 ### In order to run this on android broswer in a actual android device, we need to add following data:
-We need to specify the AndroidDriver: AppiumDriver driver = new AndroidDriver(new url(https://www.freeletics.com), capabilities)
+We need to specify the AndroidDriver: AppiumDriver driver = new AndroidDriver(new url(), capabilities)
 We need add the set the desired capacbilities and specify actual device name and udid e.g 
 
 DesiredCapabilities capabilities = new DesiredCapabilities();
