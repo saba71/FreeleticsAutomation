@@ -48,8 +48,9 @@ capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 ### In case of hybrid app we will specify the AndroidDriver and desired capabilities as above but we will also specify the Driver context ie: 'NATIVE_APP' and 'WEBVIEW_1'
 
 ## 4. And if it was a native app? 
-### In case app is we will speicy AndroidDriver and Desired capabilities as above and additionally we will also specify the Activity name of the app which we want to access
+### In case app is we will speicy AndroidDriver and Desired capabilities as above and additionally we will also specify the Activity name of the app which we want to access and app pacakge
 capabilities.setCapability("appActivity", "Activtiy name");
+capabilities.setCapability("appPackage", "package name");
 
 
 
